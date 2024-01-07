@@ -3,7 +3,10 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	padding-top: 5px 3px;
+	padding: 5px 3px;
+	box-sizing: border-box;
+	background-color: white;
+	font-size: 13px;
 }
 .status-bar__column {
 	width: 33%;
@@ -14,6 +17,7 @@
 .status-bar__column:nth-child(2) span {
 	display: flex;
 	justify-content: center;
+	font-weight: 600;
 }
 
 .status-bar__column:last-child {

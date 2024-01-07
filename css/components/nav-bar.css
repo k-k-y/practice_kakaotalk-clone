@@ -19,22 +19,12 @@
 }
 
 .nav__chatnotif {
-	background-color: tomato;
-	width: 18px;
-	height: 18px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 9px;
-	color: white;
-	font-weight: 600;
-	font-size: 11px;
 	position: absolute;
 	left: 10px;
 	bottom: 10px;
 }
 
-.nav__menunotif {
+.nav__morenotif {
 	width: 4px;
 	height: 4px;
 	background-color: tomato;
