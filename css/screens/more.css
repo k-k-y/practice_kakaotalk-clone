@@ -1,0 +1,15 @@
+.user-component__subtitle {
+	display: flex;
+}
+.user-component__column:first-child i {
+	font-size: 12px;
+	display: flex;
+	height: 13px;
+	width: 13px;
+	background-color: white;
+	justify-content: center;
+	border-radius: 50%;
+	color: red;
+	border: 1px solid red;
+	margin-left: 5px;
+}

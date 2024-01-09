@@ -5,7 +5,7 @@
 	background-color: #f9f9fa;
 	padding: 20px 55px;
 	box-sizing: border-box;
-	border-top: 1px solid rgba(0, 0, 0, 0.3);
+	border-top: var(--main-border);
 }
 
 .nav__list {
@@ -25,10 +25,6 @@
 }
 
 .nav__morenotif {
-	width: 4px;
-	height: 4px;
-	background-color: tomato;
-	border-radius: 2px;
 	position: absolute;
 	left: 20px;
 }

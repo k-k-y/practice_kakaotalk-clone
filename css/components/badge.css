@@ -1,4 +1,4 @@
-.badge {
+.chat-badge {
 	background-color: tomato;
 	width: 18px;
 	height: 18px;
@@ -11,4 +11,17 @@
 	font-size: 11px;
 	left: 10px;
 	bottom: 10px;
+}
+
+.more-badge {
+	width: 4px;
+	height: 4px;
+	background-color: tomato;
+	border-radius: 2px;
+}
+
+.more-badge__find-setting {
+	position: absolute;
+	left: 20px;
+	bottom: 18px;
 }
