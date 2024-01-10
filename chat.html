@@ -25,7 +25,9 @@
 
 		<header class="alt-header">
 			<div class="alt-header__column">
-				<i class="fa-solid fa-chevron-left fa-lg"></i>
+				<a href="chats.html">
+					<i class="fa-solid fa-chevron-left fa-lg"></i>
+				</a>
 			</div>
 			<div class="alt-header__column">
 				<h2 class="alt-header__title">기영s</h2>
@@ -35,5 +37,42 @@
 				<span><i class="fa-solid fa-bars fa-lg"></i></span>
 			</div>
 		</header>
+
+		<main class="main-screen main-chat">
+			<div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+			<div class="message-row">
+				<img src="https://avatars.githubusercontent.com/u/149550398?v=4" />
+				<div class="message__content">
+					<span class="message__author">Kiyeong</span>
+					<div class="message__info">
+						<span class="message__info__bubble">Hi!</span>
+						<span class="message__info__time">21:27</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="message-row message-row--own">
+				<div class="message__content">
+					<div class="message__info">
+						<span class="message__info__bubble">What's up?</span>
+						<span class="message__info__time">21:27</span>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<form class="reply">
+			<div class="reply__column">
+				<i class="fa-regular fa-square-plus fa-2x"></i>
+			</div>
+			<div class="reply__column">
+				<input type="text" placeholder="Write here." />
+				<i class="fa-regular fa-face-smile-beam fa-lg"></i>
+				<button>
+					<i class="fa-solid fa-arrow-up fa-lg"></i>
+				</button>
+			</div>
+		</form>
 	</body>
 </html>

@@ -25,3 +25,31 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+#splash-screen {
+	background-color: var(--yellow);
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: hideSplashScreen 0.4s ease-in-out forwards;
+	animation-delay: 1.5s;
+}
+
+#splash-screen i {
+	font-size: 100px;
+	color: #3c1d1e;
+}
+
+@keyframes hideSplashScreen {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
