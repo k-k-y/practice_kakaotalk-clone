@@ -13,3 +13,44 @@
 	border: 1px solid red;
 	margin-left: 5px;
 }
+
+.icon-row__two-icons {
+	display: flex;
+	flex-direction: column;
+}
+
+.icon-row__two-icons .icon-row__icon:first-child {
+	margin-bottom: 30px;
+}
+
+.more-suggestions {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: var(--main-border);
+}
+
+.more-suggestions__title {
+	font-weight: 500;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.more-suggestions__icons {
+	display: flex;
+}
+
+.more-suggestions__icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.more-suggestions__icon i {
+	margin-bottom: 10px;
+}
+
+.more-suggestions__icon span {
+	opacity: 0.6;
+	font-size: 14px;
+}
