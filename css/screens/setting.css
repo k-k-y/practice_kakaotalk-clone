@@ -46,3 +46,55 @@
 	height: 1px;
 	border-bottom: var(--main-border);
 }
+
+@keyframes dangerHorn {
+	0% {
+		transform: none;
+		color: #2e363e;
+	}
+	50% {
+		transform: scale(2);
+		color: red;
+	}
+	100% {
+		transform: none;
+		color: #2e363e;
+	}
+}
+
+.settings-list__item:first-child:hover .fa-bullhorn {
+	animation: dangerHorn 2s ease-in-out infinite;
+}
+
+@keyframes spillFlask {
+	from {
+		transform: none;
+	}
+	to {
+		transform: rotateZ(90deg);
+		color: blue;
+	}
+}
+
+.settings-list__item:nth-child(2):hover .fa-flask {
+	animation: spillFlask 1.5s ease-in-out infinite;
+}
+
+@keyframes versionAnimation {
+	0% {
+		color: red;
+		transform: none;
+	}
+	50% {
+		color: red;
+		transform: rotateY(360deg) scale(1.1);
+	}
+	100% {
+		color: red;
+		transform: none;
+	}
+}
+.settings-list__item:last-child:hover .settings-list__version-image {
+	will-change: transform;
+	animation: versionAnimation 2s ease-in-out infinite;
+}
